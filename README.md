@@ -46,18 +46,31 @@ El proceso ETL constará de las siguientes etapas:
 
 Se realizará un análisis de correlación entre la variación del IBEX y el proceso de admisión de los estudiantes de Ironhack. Se explorarán métricas estadísticas y técnicas de análisis para evaluar si existe alguna relación entre la variación del mercado y la decisión de los estudiantes de abandonar o continuar con su proceso de admisión.
 
-## Conclusiones y resultados
-
-Se espera obtener conclusiones significativas sobre el impacto de la variación del IBEX en el proceso de admisión de Ironhack. Según los resultados obtenidos del análisis de correlación, se podrán identificar posibles relaciones entre los cambios en el mercado y las decisiones de los estudiantes. Estas conclusiones podrían proporcionar información valiosa para la toma de decisiones de la escuela y ayudar a comprender mejor el comportamiento de los estudiantes durante el proceso de admisión.
-
 ![varibex22](https://github.com/veronicamonper/ETL_Project/blob/main/imagenes/varibex22.png) 
 ![varcurso22](https://github.com/veronicamonper/ETL_Project/blob/main/imagenes/varcurso22.png)
 
+A primera vista, viendo los gráficos anteriores, pareciera que hubiese correlación. Sin embargo, al hacer los cálculo vemos que no existe ya que el coeficiente de correlación es de  -0,007.
 
+
+## Conclusiones y resultados
+
+Después del análisis podemos concluir que la variación del IBEX no impacta en el proceso de admisión de Ironhack. Sin embargo, en el análisis decubrimos lo siguiente:
+
+Aquí podemos ver el número de alumnos que han abandonado el proceso de admisión por programa desde enero 2022 hasta junio 2023.
+
+![interest](https://github.com/veronicamonper/ETL_Project/blob/main/imagenes/interest.png)
+
+También podemos ver por programa, y en qué etapa del proceso abandonan más los candidatos
+
+![stage](https://github.com/veronicamonper/ETL_Project/blob/main/imagenes/curso_stage.png)
+
+Por último vemos la variación por formato y etapa del proceso donde abandonan los candidatos
+
+![formato](https://github.com/veronicamonper/ETL_Project/blob/main/imagenes/ft_ptstage.png)
 
 ## Próximos pasos
 
-En futuras iteraciones de este proyecto, se podría considerar la inclusión de más variables relevantes, como el número total de matrículas en ese período de tiempo y los diferentes canales de marketing, para obtener un análisis más completo del impacto económico en el proceso de admisión de Ironhack. También se podrían aplicar técnicas de modelado y aprendizaje automático para predecir el abandono del proceso de admisión en función de las condiciones del mercado.
+En futuras iteraciones de este proyecto, se podría considerar la inclusión de más variables relevantes, como el número total de matrículas en ese período de tiempo y los diferentes canales de marketing. De esta manera podremos obtener un análisis más completo del proceso de admisión de Ironhack. También se podrían aplicar técnicas de modelado y aprendizaje automático para predecir el abandono del proceso de admisión en función de los nuevos análisis.
 
 ## Autor
 
