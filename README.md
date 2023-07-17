@@ -50,7 +50,9 @@ Se realizará un análisis de correlación entre la variación del IBEX y el pro
 
 Se espera obtener conclusiones significativas sobre el impacto de la variación del IBEX en el proceso de admisión de Ironhack. Según los resultados obtenidos del análisis de correlación, se podrán identificar posibles relaciones entre los cambios en el mercado y las decisiones de los estudiantes. Estas conclusiones podrían proporcionar información valiosa para la toma de decisiones de la escuela y ayudar a comprender mejor el comportamiento de los estudiantes durante el proceso de admisión.
 
-![interest](../ETL_Project/imagenes/interest)
+![varibex22](https://github.com/veronicamonper/ETL_Project/blob/main/imagenes/varibex22.png)
+
+
 
 ## Próximos pasos
 
